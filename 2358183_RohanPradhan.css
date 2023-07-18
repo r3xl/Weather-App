@@ -1,0 +1,70 @@
+body {
+  background-image:url(default.png);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 60px;
+  height: auto;
+}
+
+.logo span {
+  font-size: 18px;
+  margin-left: 10px;
+  font-size: xx-large;
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.content {
+  text-align: center;
+  width: 420px;
+  height: 480px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: linear-gradient(to top right, rgb(204, 250, 255), white);
+  box-shadow: 10px 10px rgb(221, 245, 255);
+  border-radius: 20px;
+  color:#000000;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  bottom: 10px;
+}
+
+.search input {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  margin-top: 35px;
+}
+
+.search button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ffdaf6;
+  cursor: pointer;
+  margin-top: 35px;
+}
+
+.search button img {
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+}
+
+.weather-icon {
+  width: 60px;
+  height: 60px;
+}
